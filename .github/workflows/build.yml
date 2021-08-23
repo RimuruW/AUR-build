@@ -8,7 +8,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        pkgname: [proton-native]
+        pkgname: [proton-native, code-git]
     steps:
       - uses: actions/checkout@v2
       - name: Clone test repo
